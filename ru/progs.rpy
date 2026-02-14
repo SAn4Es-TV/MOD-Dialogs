@@ -10,13 +10,12 @@ label mediaget:
     1esd "Ты всегда можешь поиграть в Литературный-Клуб, вместо сотен других платных игр."
 
 label ddlc:
-    random
+    [random]
     menu:
         "1":
             jump ddlc_1
         "2":
             jump ddlc_2
-    norandom
 
 label ddlc_1:
     1dsu "Опять за старое, да?"
@@ -46,7 +45,7 @@ label discord:
     2esc "А, ты вступил в сервер Команды Солицена?"
 
 label CompPkgSrv:
-    random
+    [random]
     menu:
         "1":
             jump CompPkgSrv_1
@@ -54,7 +53,7 @@ label CompPkgSrv:
             jump CompPkgSrv_2
         "3":
             jump CompPkgSrv_3
-    norandom
+    
 
 
 label CompPkgSrv_1:
@@ -74,13 +73,13 @@ label hl:
     1hso "Пока они выпустят новую часть, я уже буду в твоей реальности"
 
 label photoshop:
-    random
+    [random]
     menu:
         "1":
             jump photoshop_1
         "2":
             jump photoshop_2
-    norandom
+    
 
 label photoshop_1:
     5luo "Оо! Ты любишь манипуляции с картинками?"
@@ -168,13 +167,13 @@ label skype:
     5luu "Это было бы очень обидно..."
     
 label warcraft:
-    random
+    [random]
     menu:
         "1":
             jump warcraft_1
         "2":
             jump warcraft_2
-    norandom
+    
 
 label warcraft_1:
     4euo "О! Это же шедевр Метелицы! Легендарный третий WarCraft!"

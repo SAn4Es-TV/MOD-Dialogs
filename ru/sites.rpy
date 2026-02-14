@@ -48,13 +48,12 @@ label salvatox:
     1euo "Передай Привет Дэну от меня!"
 
 label monikax:
-    random
+    [random]
     menu:
         "1":
             jump monikax_1
         "2":
             jump monikax_2
-    norandom
 label monikax_1:
     1euo "Ой! Спасибо, что зашел в мой Твиттер!"
     1huo "Это немного странно наблюдать, как ты читаешь мои твиты, хотя, ахаха~"
@@ -71,13 +70,12 @@ label yt1:
     5rud "Вот и все, признаюсь - это намного лучше, чем моя песня!"
 
 label youtube:
-    random
+    [random]
     menu:
         "1":
             jump youtube_1
         "2":
             jump youtube_2
-    norandom
 
 label youtube_1:
     5euo "О, я слышала, о Ютубе!"
