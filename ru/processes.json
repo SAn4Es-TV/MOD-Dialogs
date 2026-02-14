@@ -1,0 +1,90 @@
+[
+  {
+    "Label": "cinema",
+    "Apps": ["cinema 4d.exe", "3dsmax.exe"]
+  },
+  {
+    "Label": "utorrent",
+    "Apps": ["utorrent.exe"]
+  },
+  {
+    "Label": "mediaget",
+    "Apps": ["mediaget.exe"]
+  },
+  {
+    "Label": "ddlc",
+    "Apps": ["ddlc.exe"]
+  },
+  {
+    "Label": "ddlcplus",
+    "Apps": ["doki doki literature club plus.exe"]
+  },
+  {
+    "Label": "discord",
+    "Apps": ["discord.exe"]
+  },
+  {
+    "Label": "comppkgsrv",
+    "Apps": ["comppkgsrv.exe"]
+  },
+  {
+    "Label": "fl",
+    "Apps": ["fl.exe", "fl64.exe"]
+  },
+  {
+    "Label": "hl",
+    "Apps": ["hl.exe", "hl2.exe"]
+  },
+  {
+    "Label": "photoshop",
+    "Apps": ["photoshop.exe"]
+  },
+  {
+    "Label": "renpy",
+    "Apps": ["renpy.exe"]
+  },
+  {
+    "Label": "aimp",
+    "Apps": ["spotify.exe", "aimp.exe"]
+  },
+  {
+    "Label": "telegram",
+    "Apps": ["telegram.exe"]
+  },
+  {
+    "Label": "osu",
+    "Apps": ["osu!.exe"]
+  },
+  {
+    "Label": "regedit",
+    "Apps": ["regedit.exe"]
+  },
+  {
+    "Label": "fable",
+    "Apps": ["fable.exe"]
+  },
+  {
+    "Label": "fablea",
+    "Apps": ["fable anniversary.exe"]
+  },
+  {
+    "Label": "obs",
+    "Apps": ["obs64.exe"]
+  },
+  {
+    "Label": "recentral",
+    "Apps": ["recentral.exe"]
+  },
+  {
+    "Label": "dbg",
+    "Apps": ["x32dbg.exe", "x64dbg.exe"]
+  },
+  {
+    "Label": "skype",
+    "Apps": ["skype.exe"]
+  },
+  {
+    "Label": "warcraft",
+    "Apps": ["warcraft iii.exe"]
+  }
+]
