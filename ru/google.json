@@ -1,0 +1,70 @@
+[
+  {
+    "Label": "ddls_song",
+    "Apps": ["ddlc theme", "ddlc theme song"]
+  },
+  {
+    "Label": "dio",
+    "Apps": ["dio", "dio brando", "дио", "дио брандо"]
+  },
+  {
+    "Label": "doki",
+    "Apps": ["doki-doki", "doki doki", "доки-доки", "доки доки"]
+  },
+  {
+    "Label": "hl3",
+    "Apps": ["half-life 3"]
+  },
+  {
+    "Label": "hevyrain",
+    "Apps": ["heavy rain"]
+  },
+  {
+    "Label": "jjba",
+    "Apps": ["jjba", "jojo's bizarre adventures", "jojo no kimyou na bouken", "джоджо"]
+  },
+  {
+    "Label": "hmonika",
+    "Apps": ["monika rule 34", "monika lewds", "monika naked", "monika nudes", "monika porn", "monika hentai"]
+  },
+  {
+    "Label": "mdakimakura",
+    "Apps": ["monika ddlc dakimakura", "моника дакимакура"]
+  },
+  {
+    "Label": "natsayurika",
+    "Apps": ["natsayurika", "натсаюрика"]
+  },
+  {
+    "Label": "natsuki",
+    "Apps": ["natsuki", "нацуки"]
+  },
+  {
+    "Label": "eat",
+    "Apps": ["places to eat", "места для еды"]
+  },
+  {
+    "Label": "affp",
+    "Apps": ["привязаность+"]
+  },
+  {
+    "Label": "affm",
+    "Apps": ["привязаность-"]
+  },
+  {
+    "Label": "bone",
+    "Apps": ["one button test"]
+  },
+  {
+    "Label": "btwo",
+    "Apps": ["two button test"]
+  },
+  {
+    "Label": "bthree",
+    "Apps": ["three button test"]
+  },
+  {
+    "Label": "bfour",
+    "Apps": ["four button test"]
+  }
+]
