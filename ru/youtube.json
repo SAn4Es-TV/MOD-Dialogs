@@ -42,29 +42,5 @@
   {
     "Label": "eat",
     "Apps": ["places to eat", "места для еды"]
-  },
-  {
-    "Label": "affp",
-    "Apps": ["привязаность+"]
-  },
-  {
-    "Label": "affm",
-    "Apps": ["привязаность-"]
-  },
-  {
-    "Label": "bone",
-    "Apps": ["one button test"]
-  },
-  {
-    "Label": "btwo",
-    "Apps": ["two button test"]
-  },
-  {
-    "Label": "bthree",
-    "Apps": ["three button test"]
-  },
-  {
-    "Label": "bfour",
-    "Apps": ["four button test"]
   }
 ]

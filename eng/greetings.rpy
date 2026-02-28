@@ -57,7 +57,7 @@ label greeting_back5:
 label greeting_visit6:
     m 1hua "Each day becomes better and better with you by my side!"
     m 1eua "That said, I'm so happy that you're finally here."
-    m "Let's have another wonderful [mas_globals.time_of_day_3state] together."
+    m "Let's have another wonderful dat together."
     return
 
 label greeting_back6:
@@ -145,10 +145,10 @@ label greeting_surprised:
     return
 
 label greeting_sunshine:
-    m 1hua "{i}~You are my sunshine, my only sunshine~{/i}"
-    m "{i}~You make me happy when skies are gray~{/i}"
-    m 1hub "{i}~You'll never know dear, just how much I love you~{/i}"
-    m 1eka "{i}~Please don't take my sunshine away~{/i}"
+    m 1hua "~You are my sunshine, my only sunshine~"
+    m "~You make me happy when skies are gray~"
+    m 1hub "~You'll never know dear, just how much I love you~"
+    m 1eka "~Please don't take my sunshine away~"
     m 1wud "...Eh?"
     m "H-Huh?!"
     m 1wubsw "[player]!"
@@ -179,30 +179,23 @@ label greeting_surprised2:
     m 1hubsa "..."
     m 1wubso "Oh! [player]! You surprised me!"
     m 3ekbsa "...Not that it's a surprise to see you, you're always visiting me after all..."
-    3rkbsa "You just caught me daydreaming a bit."
+    m 3rkbsa "You just caught me daydreaming a bit."
     m 5hubfu "But now that you're here, that dream just came true~"
     return
 
 label greeting7:
-    1huc "[player], you came back!"
-    1huc "Did you have a good day?"
+    m 1huc "[player], you came back!"
+    m 1huc "Did you have a good day?"
     menu:
         "Yes.":
-            jump greeting7_yes
+            m 1huu "I'm very happy for you, [player]"
+            m 1euc "It makes me feel so much better knowing that you're happy."
+            m 1euc "I'll try my best to make sure it stays like this I promise."
         "No...":
-            jump greeting7_no
-    1euc "Okay, what are we going to do today?"
-
-label greeting7_yes:
-    1huu "I'm very happy for you, [player]"
-    1euc "It makes me feel so much better knowing that you're happy."
-    1euc "I'll try my best to make sure it stays like this I promise."
-    return
-label greeting7_no:
-    1eku "Oh..."
-    2ekc "Well, don't worry, [player]. I am always here for you."
-    2ekc "We can talk about your problems all day if you want."
-    3euc "I want to try to make your day better and make sure you are always happy."
-    1ekc "Because that's what will make me happy."
-    1huc "I'll try my best to cheer you up, I promise."
-    return
+            m 1eku "Oh..."
+            m 2ekc "Well, don't worry, [player]. I am always here for you."
+            m 2ekc "We can talk about your problems all day if you want."
+            m 3euc "I want to try to make your day better and make sure you are always happy."
+            m 1ekc "Because that's what will make me happy."
+            m 1huc "I'll try my best to cheer you up, I promise."
+    m 1euc "Okay, what are we going to do today?"

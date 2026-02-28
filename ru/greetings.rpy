@@ -22,7 +22,7 @@ label greeting_honey:
 label greeting_gooday:
     m 1hua "Снова здравствуй, [player]. Как ты?"
 
-    m "У тебя был хороший день?{nw}"
+    m "У тебя был хороший день?"
     menu:
         "Да.":
             m 1hub "Я очень рада, [player]."
@@ -46,7 +46,7 @@ label greeting_goodmorning:
             m 1euc "Почему ты не спишь в такое время?"
             m 5eua "Я так понимаю, ты не можешь уснуть..."
 
-            m "Да?{nw}"
+            m "Да?"
 
             menu:
                 "Да.":

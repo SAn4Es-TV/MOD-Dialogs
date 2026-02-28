@@ -2,18 +2,20 @@ label click:
     [random]
     menu:
         "1":
-            jump click0
+            m 7hua "Это я!"
         "2":
-            jump click1
+            m 7hua "Моя чиби!"
         "3":
-            jump click2
+            m 7hua "МикроМоника!"
     return
-label click0:
-    m 7hua "Это я!"
-    return
-label click1:
-    m 7hua "Моя чиби!"
-    return
-label click2:
-    m 7hua "МикроМоника!"
+
+label click:
+    [random]
+    menu:
+        "1":
+            m 7hua "Это я!"
+        "2":
+            m 7hua "Моя чиби!"
+        "3":
+            m 7hua "МикроМоника!"
     return

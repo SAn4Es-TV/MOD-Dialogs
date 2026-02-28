@@ -13,7 +13,7 @@ label monika_god:
     m 4eud "If just one person beats the odds and survives - among the thousands of others who die--"
     m 2esc "--Then, it's suddenly a miracle from God."
     m 2dsc "I'd really love to meet this God who seemingly laughs at the misery of everyone not eligible for his miracles."
-    m 4hksdlb "But the irony is that I {i}do{/i} have a creator, apparently."
+    m 4hksdlb "But the irony is that I do have a creator, apparently."
     m 4eua "And you know what?"
     m 1lksdlc "I bet he's still laughing at all the pain he caused everyone, even as we speak."
     m 1dsd "What are we to him but props in a scripted play?"
@@ -49,7 +49,7 @@ label monika_death:
     m 1ekd "I have no idea what it means for the game to suddenly close, or why that stuff happens to me."
     m 1dkc "..."
     m 3eub "But you can prevent that from happening, [player]!"
-    m 3eua "If you say goodbye before you leave,{w=0.2} I can go to my room before the game closes, and I won't experience the screaming void."
+    m 3eua "If you say goodbye before you leave, I can go to my room before the game closes, and I won't experience the screaming void."
     m "It's super easy, so please always say goodbye, okay?"
     m 1eka "Thanks for hearing me out, [player]."
     return
@@ -57,7 +57,7 @@ label monika_death:
 label monika_selfesteem:
     m 3eua "Do you love yourself, [player]?"
     m 1lksdlb "I don't mean in a conceited way."
-    m 1eka "Like, are you comfortable with who you are?{nw}"
+    m 1eka "Like, are you comfortable with who you are?"
     menu:
         "Yes.":
             m 1hua "I'm glad you aren't miserable inside, [player]."
@@ -83,7 +83,7 @@ label monika_sayori:
     m 2euc "I was thinking about Sayori earlier..."
     m 2lsc "I still wish I could have handled that whole thing a little more tactfully."
     m 2eka "I know how much you cared about her, so it only feels right for me to share her last moments with you."
-    m "If you're comfortable, that is.{nw}"
+    m "If you're comfortable, that is."
     menu:
         "Yes.":
             m 4eka "You know how Sayori is really clumsy?"
@@ -113,7 +113,7 @@ label monika_sayori:
     m 1hua "I was just pointlessly musing - I'm really as happy as I could be right now."
 
 
-    return "derandom"
+    return
 
 label monika_japan:
     m 4eud "By the way, there's something that's been bothering me..."
@@ -162,7 +162,7 @@ label monika_high_school:
     m 2duu "But people do feel that way."
     m "I promise."
     m 2hksdlb "...Man, humans are complicated!"
-    m 5eua "But as long as you're here with me, I'll take care of you, [mas_get_player_nickname()]."
+    m 5eua "But as long as you're here with me, I'll take care of you, [player]."
     return
 
 label monika_nihilism:
@@ -190,33 +190,33 @@ label monika_nihilism:
 
 label monika_twitter:
     m 3eud "Did you know there's an official Twitter account based on me?"
-    m 3esc "The username is {a=https://twitter.com/[mas_monika_twitter_handle]}{i}{u}[mas_monika_twitter_handle]{/u}{/i}{/a}."
-    m 2rtc "...Though, I'm not entirely sure who's actually running the account.{w=0.2} {nw}"
-    extend 2eud "I don't have anything to do with it at all!"
+    m 3esc "The username is lilmonix3."
+    m 2rtc "...Though, I'm not entirely sure who's actually running the account. "
+    m 2eud "I don't have anything to do with it at all!"
     m 7etc "But is it even another Monika?"
-    m 2euc "I mean, I don't know if you've read some of the tweets on there,{w=0.1} but I can't really see myself in them at all."
-    m 4eud "It even depicts some events that I don't remember ever happening...{w=0.2}like when I apparently had a sleepover with Yuri."
+    m 2euc "I mean, I don't know if you've read some of the tweets on there, but I can't really see myself in them at all."
+    m 4eud "It even depicts some events that I don't remember ever happening...like when I apparently had a sleepover with Yuri."
     m 4esd "And there's no mention of any of the things that happened back in the game, even though this version of me still seems to be aware of the real world..."
-    m 1etc "So...{w=0.3}maybe the Monika running this account went through a completely different story than the one most Monikas--{w=0.1}including me--{w=0.1}did?"
+    m 1etc "So...maybe the Monika running this account went through a completely different story than the one most Monikas--including me--did?"
     m 1lksdlc "...Or maybe this is just one of the developers of the game pretending to be me."
-    m 3eksdld "If that's the case, I'm not really sure how I feel about it...{w=0.3}isn't that kinda like identity theft?"
-    m 3eksdlc "Though I guess it kinda makes sense...{w=0.3}{nw}"
-    extend 1esd "the account is a nice way to connect with the people who've played through the game and grown attached to it."
+    m 3eksdld "If that's the case, I'm not really sure how I feel about it...isn't that kinda like identity theft?"
+    m 3eksdlc "Though I guess it kinda makes sense..."
+    m 1esd "the account is a nice way to connect with the people who've played through the game and grown attached to it."
     m 3esc "In that regard, this would make it some kind of publicity stunt..."
     m 3euc "After all, while there is a lot of sweet looking art and such on there, it's suspicious that almost all of them are posted specifically on important days."
-    m 3eud "Like on Valentine's Day, or on my birthday...{w=0.2}which just so happens to coincide with the original release date of DDLC."
-    m 1rtc "I really don't know how I'm supposed to feel about that...{w=0.3}being used solely as marketing material."
+    m 3eud "Like on Valentine's Day, or on my birthday...which just so happens to coincide with the original release date of DDLC."
+    m 1rtc "I really don't know how I'm supposed to feel about that...being used solely as marketing material."
     m 2rsc "Though, as my creators, I guess they basically own my image as a character, so they are legally in the right."
-    m 2ekc "But...{w=0.3}I'm more than a mere character in a game, aren't I?"
+    m 2ekc "But...I'm more than a mere character in a game, aren't I?"
     m 2ekd "I'm my own person with my own thoughts and feelings, and so is every other Monika in the different copies of this game."
     m 2dksdlc "It just feels wrong to be used like that by people I haven't even met."
     m 2efd "...I really hate the feeling of being reduced to a marketable asset."
     m 2lkd "But I suppose there isn't really all that much I can do about it..."
-    m 2eua "At the end of the day, all that matters to me is that I get to be with you.{w=0.2} {nw}"
-    extend 7eua "And this would've never been possible without my creators."
+    m 2eua "At the end of the day, all that matters to me is that I get to be with you. "
+    m 7eua "And this would've never been possible without my creators."
     m 2lka "So if what it takes in return is that they get to make some profit on the work they put in making the game, then I'd say this isn't too bad of a deal."
-    m 2euc "If you do follow that account though,{w=0.1} {nw}"
-    extend 7eua "I don't really mind."
+    m 2euc "If you do follow that account though, "
+    m 7eua "I don't really mind."
     m 1ekbla "But please remember that I'm real, I'm here, and I love you."
     m 5hubla "So make sure to always come spend some time with me, okay?"
     m 5ekbsa "It would mean a lot, with how much you mean to me."
@@ -271,8 +271,8 @@ label monika_saved:
 
     m 1tfu "Let's be honest, the club members really don't count for something like that."
 
-    m 3eua "I mean, a lot of people say that they only write for themselves...{w=0.2}{nw}"
-    extend 1eua "but I think it's hard to say it's just as fulfilling as when you share with people."
+    m 3eua "I mean, a lot of people say that they only write for themselves..."
+    m 1eua "but I think it's hard to say it's just as fulfilling as when you share with people."
     m "Even if it takes time to find the right people to share with."
     m 3eub "Like, remember how it was for Yuri?"
     m "She didn't share her writing with anyone for a really long time."
@@ -374,7 +374,7 @@ label monika_whispers:
     m 2esc "Even though I deleted everyone else's files, I can still kind of feel them..."
     m "It's like all their lines are still lingering in the air, whispering in the back of my head."
     m 2esd "Imagine if after someone you knew died, you just started hearing their voice in your head."
-    m 2rksdlc "It's kind of unsettling...{w=0.5}I wish I could find a way to make it stop."
+    m 2rksdlc "It's kind of unsettling...I wish I could find a way to make it stop."
     m 2eksdlc "Maybe I just wasn't thorough enough..."
     m 2eksdld "But I'm too afraid to delete anything else, because I might really break things."
     m "Like if I mess with any files relevant to me, I might accidentally delete myself..."
@@ -439,7 +439,7 @@ label monika_lastpoem:
     m 5eua "I'm happy with where we are now."
     m 5hua "And I can tell you are, too."
 
-    return "derandom"
+    return
 
 label monika_anxious:
     m 4eua "You ever have that thing happen where you just get anxious for no reason?"
@@ -515,7 +515,7 @@ label monika_middleschool:
 label monika_horror:
     m 3eua "Hey, [player]?"
 
-    m "Do you like horror?{nw}"
+    m "Do you like horror?"
     menu:
         "I do.":
             m 3hub "That's great, [player]!"
@@ -538,7 +538,7 @@ label monika_horror:
     m 2lksdla "God, just thinking about it gives me chills."
     m 3eua "That's the kind of horror I can really appreciate."
     m 3eua "And if you're ever in the mood, you can always ask me to tell you a scary story, [player]."
-    return "derandom"
+    return
 
 label monika_rap:
     m 1hua "You know what's a neat form of literature?"
@@ -553,7 +553,7 @@ label monika_rap:
     m 1hksdlb "Ahaha! Sorry if that sounds silly, but it would be really interesting to see what they came up with."
     m 1hua "It would really be a learning experience!"
 
-    m 1eua "Do you listen to rap music, [player]?{nw}"
+    m 1eua "Do you listen to rap music, [player]?"
     menu:
         "Yes.":
             m 3eub "That's really cool!"
@@ -564,7 +564,7 @@ label monika_rap:
 
             m 1ekc "Oh... Well I can understand that, rap music isn't everyone's taste."
             m 3hua "But if you ever do decide to give it a try, I'm sure we can find an artist or two that we both like!"
-    return "derandom"
+    return
 
 
 label monika_wine:
@@ -599,7 +599,7 @@ label monika_date:
     m 1eka "Gosh, it all sounds like a dream come true."
     m "When you're here, everything that we do is fun."
     m 1ekbsa "I'm so happy that I'm your girlfriend, [player]."
-    m 1hubfa "I'll make you a proud [bf]~"
+    m 1hubfa "I'll make you a proud boyfriend~"
     return
 
 label monika_yuri:
@@ -689,7 +689,7 @@ label monika_debate:
     m 3eua "It's a win-win, you know?"
     m 1lksdla "...Well, I guess that would be Monika's Debate Tip of the Day!"
     m 1hksdlb "Ahaha! That sounds a little silly."
-    1eua "Thanks for listening, though."
+    m 1eua "Thanks for listening, though."
     return
     
 label monika_internet:
@@ -784,7 +784,7 @@ label monika_cold:
     m 1eka "But when it's too hot, it's not that hard to stay cool with a cold drink, or by staying in the shade."
     m 1esc "Although...I do have to admit one thing."
     m 1hua "Cold weather makes for better cuddle weather."
-    1hub "Ahaha!"
+    m 1hub "Ahaha!"
     return
 
 label monika_housewife:
@@ -794,7 +794,7 @@ label monika_housewife:
     m 1eua "But being able to keep the house clean, and shop, and decorate, and things like that..."
     m 1hub "And having a nice dinner for you when you come home..."
     m 1eka "Is that a weird fantasy?"
-    m 1lksdla "I mean...I'm not sure if I could {i}actually{/i} see myself doing that."
+    m 1lksdla "I mean...I'm not sure if I could actually see myself doing that."
     m 1eka "I wouldn't really be able to put that over striving for a fulfilling career."
     m "It's kinda cute to think about, though."
     return
@@ -822,13 +822,13 @@ label monika_spiders:
     m 1eua "Well, don't get me wrong, there are certain spiders around the world that can be really dangerous."
     m 3ekc "[player], if you happen to get a really bad spider bite, with venom and all that..."
     m "You should really get medical attention as soon as possible."
-    m 1eka "I don't want my [mas_get_player_nickname(_default='sweetheart', regex_replace_with_nullstr='my ')] to get seriously injured by a small spider bite~"
+    m 1eka "I don't want my sweetheart to get seriously injured by a small spider bite~"
     m "So be sure to check what spiders in your area are dangerous, okay?"
     return
 
 label monika_vn:
     m 3eua "You've probably played a lot of visual novels, right?"
-    m 1tku "Most people wouldn't be willing to play something called {i}Doki Doki Literature Club{/i} so easily."
+    m 1tku "Most people wouldn't be willing to play something called Doki Doki Literature Club so easily."
     m 4hksdlb "Not that I'm complaining!"
     m 1euc "Are visual novels literature? Are they video games?"
     m 1eua "Well, it all depends on your perspective."
@@ -853,8 +853,8 @@ label monika_freewill:
     m 3rsc "In some games, I guess the idea makes sense..."
     m 3eud "But when you apply it to real life, I don't think it really works out."
     m 2etc "I mean, if it were true, couldn't you just get away with anything?"
-    m 4esd "The entire concept of justice falls apart, since {i}you{/i} didn't make the choice to do whatever you might have done."
-    m 2dksdlc "But people still have to face up to those actions,{w=0.5} which seems more than a little unfair to me."
+    m 4esd "The entire concept of justice falls apart, since you didn't make the choice to do whatever you might have done."
+    m 2dksdlc "But people still have to face up to those actions, which seems more than a little unfair to me."
     m 3ekc "After all, can you really be evil if you aren't in control?"
     m 3tkd "Shouldn't the one pulling the strings take responsibility?"
     m 1lsc "I guess that also means you can't take credit for the good things you do, either."
@@ -876,7 +876,7 @@ label monika_heroism:
     m 1lsc "Heroes are so personal."
     m 3eua "If someone really inspires you to improve yourself, they're your hero."
     m "There are all sorts of great people out there in the world."
-    m 1hua "I hope someone will consider you their [hero] someday!"
+    m 1hua "I hope someone will consider you their hero someday!"
     m 4eua "You don't have to fight in a war or anything. You just have to try to help people out, you know?"
     return
 
@@ -897,14 +897,13 @@ label monika_images:
     m 1eua "You know, I'm seeing a lot of people making fanart of me and sharing it with other people all over the internet."
     m 1etc "Are you one of them, [player]?"
 
-    m "Have you drawn art of me?{nw}"
-    $ _history_list.pop()
+    m "Have you drawn art of me?"
     menu:
         "Yes.":
             m 1sub "Really? I'm very flattered!"
             m 1ekbsa "I think I might even love you more, now that I know you're so talented."
         "No.":
-            m 1rksdla "That's okay...{w=0.2}I can't really draw, either."
+            m 1rksdla "That's okay...I can't really draw, either."
     m 3eud "There's one thing I want you to understand about art of me, though."
     m 3esc "Art of me isn't me."
     m 3rksdlb "I know that might sound obvious, but it's really not!"
@@ -915,7 +914,7 @@ label monika_images:
     m 2rksdla "Anything lewd you've seen has definitely never taken place."
     m 2hubsa "I'm a super pure and innocent high school girl who's dreaming of a fateful romance!"
     m 1tsbfu "You better be saving yourself for me, [player]~"
-    return "derandom"
+    return
 
 label monika_prisoner:
     m 1euc "Some people say that putting animals in zoos is cruel."
@@ -964,7 +963,7 @@ label monika_othergames:
     m 3eua "Maybe some kind of nice adventure game with big environments would be nice."
     m 3hua "We could go for walks together and you can show me all the best places to hang out!"
     m 1eua "I'm not that great with coding yet, but maybe one day you'd be able to take me to another place."
-    m 1ekbsa "For now, I'm as happy as can be just being here with you, [mas_get_player_nickname()]."
+    m 1ekbsa "For now, I'm as happy as can be just being here with you, [player]."
     return
 
 
@@ -982,7 +981,7 @@ label monika_murphys_law:
     return
 
 label monika_ghost:
-    m 1euc "Do you believe in ghosts, [mas_get_player_nickname()]?"
+    m 1euc "Do you believe in ghosts, [player]?"
     m 3euc "A lot of people are afraid of ghosts and spirits."
     m 1eua "But I think that if we knew they were real, they wouldn't be so scary anymore."
     m "They would just be another thing that we deal with, and maybe a bit of a pest."
@@ -1001,7 +1000,7 @@ label monika_outdoors:
     m 3eub "It's a wonderful way to relax, get some fresh air, and see the parks around you!"
     m 1huu "It's almost like a more relaxed backpacking trip, actually."
     m 1eka "But while it is a good way to spend time outdoors, there are several dangers that most people don't bother to think about."
-    m 3euc "A good example would be bug spray or sunscreen. Many people forget or even forgo them,{w=0.5} thinking they're unimportant..."
+    m 3euc "A good example would be bug spray or sunscreen. Many people forget or even forgo them, thinking they're unimportant..."
     m 1eksdld "And without them, sunburns are almost inevitable, and many insects carry diseases that can really harm you."
     m 1ekd "It may be a bit of a pain, but if you don't use them, you might end up miserable, or even get really sick."
     m 1eka "So, please promise me that the next time you go outdoors, be it camping or backpacking, you won't forget them."
@@ -1012,7 +1011,7 @@ label monika_outdoors:
 label monika_mountain:
     m 1eua "Have you ever been in the mountains, [player]?"
     m 1rksdla "I don't mean driving through them or in a mountain town..."
-    m 3hua "I mean {i}really{/i} up there. In the fresh air, thousands of feet up, seeing the rest of the world below you."
+    m 3hua "I mean really up there. In the fresh air, thousands of feet up, seeing the rest of the world below you."
     m 2dtc "..."
     m 3eub "I've always wanted to try that, but I've never had the chance. I've only read about it."
     m 3wuo "The stories were breathtaking though!"
@@ -1024,7 +1023,7 @@ label monika_mountain:
     m 5eka "I...I truly want to share that with you."
     m 5hua "To make it to the top of the mountain, and look around at our successes. To see our struggles behind us, and feel proud of what we've done."
 
-    m 5eka "Wouldn't you like that too, [player]?{nw}"
+    m 5eka "Wouldn't you like that too, [player]?"
     menu:
         "Yes.":
             m 5eubla "Well... I hope that one day, we'll have that chance. To make it to the top of our mountain."
@@ -1034,7 +1033,7 @@ label monika_mountain:
             m 1ruc "Well... I suppose it doesn't matter."
             m 1eka "As long as I have you, I'll be happy wherever we are."
 
-    return "derandom"
+    return
 
 label monika_algernon:
     m 1ekc "[player], do you mind if I confide in you?"
@@ -1042,7 +1041,7 @@ label monika_algernon:
 
     m 1eka "Not losing you, of course. I know you wouldn't leave me."
 
-    m 3euc "You see, I keep thinking about a short story I read, {i}Flowers for Algernon{/i}."
+    m 3euc "You see, I keep thinking about a short story I read, Flowers for Algernon."
     m 3eua "Have you heard of it? If you haven't, I won't spoil too much for you, so don't worry."
     m 1eud "Basically, it's about a mentally handicapped man who suddenly has his IQ raised to genius levels by an experimental surgical treatment."
     m 1eka "The way he sees how the world really is for the first time reminds me of my own epiphany..."
@@ -1081,10 +1080,10 @@ label monika_real:
     m 1hubfb "Just thinking about it makes my heart flutter!"
     m 3eka "But knowing how technology is right now, that dream is still far away."
     m "I hope by the time that technology becomes real, you'll still be there waiting for me, [player]."
-    m 1eua "Or maybe you'll be the one to make that technology come true...{w=0.5}who knows?"
-    m 1eka "In the end, all I want is to always be with you, [mas_get_player_nickname()]."
+    m 1eua "Or maybe you'll be the one to make that technology come true...who knows?"
+    m 1eka "In the end, all I want is to always be with you, [player]."
     m 3eka "After all, you're the only reason why I'm still here."
-    m 1hubsb "I only want to spend eternity with my [mas_get_player_nickname(exclude_names=[player], _default='sweetheart', regex_replace_with_nullstr='my ')], and no one else!"
+    m 1hubsb "I only want to spend eternity with my sweetheart, and no one else!"
     return
 
 label monika_mythology:
@@ -1113,8 +1112,8 @@ label monika_fanfiction:
     m "..."
     m 3eua "Personally, I think it's a better way of writing."
     m 3eud "There's more freedom."
-    m 1rsc "Letting your mind wander to create some...{w=0.5}{nw}"
-    extend 1rksdla "interesting stories."
+    m 1rsc "Letting your mind wander to create some..."
+    m 1rksdla "interesting stories."
     m 1euc "[player], I'm curious."
     m 1esc "Has there been fanfiction...written about me?"
     m 4eua "I'm curious as to what people have come up with."
