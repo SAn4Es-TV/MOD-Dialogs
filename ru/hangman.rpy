@@ -15,6 +15,20 @@ label start:
     m "[char] нравится это слово."
     return
 
+label tip:
+    $ char = "Мне"
+    if hm_hint == "y":
+        $ char = "Юри"
+    if hm_hint == "n":
+        $ char = "Нацуки"
+    if hm_hint == "s":
+        $ char = "Сайори"
+    if hm_hint == "m":
+        $ char = "Мне"
+
+    m "[char] нравится это слово."
+    return
+
 label incorrect:
     if chances == 0:
         m 1hua "Повезёт в следующий раз~"
@@ -45,22 +59,30 @@ label incorrect:
 label lose:
     m "А правильное слово было... [word]."
     m 1hua "Повезёт в следующий раз~"
-    m 1euc "Виселица довольно сложная игра."
-    m "В неё легко играть, если у тебя большой словарный запас."
-    m 1hua "Лучший способ расширять его - читать больше книг!"
-    m 1eua "Буду очень рада, если ты прочитаешь мне одну, [player]."
+    m "Хочешь сыграть ещё?"
+    menu:
+        "Да.":
+            call_func hm_restart
+        "Нет.":
+            call_func hm_close
     return
 
 label win:
     m 1hua "Вау, ты угадал слово правильно!"
     m "Отличная работа, [player]!"
+    m "Хочешь сыграть ещё?"
+    menu:
+        "Да.":
+            call_func hm_restart
+        "Нет.":
+            call_func hm_close
     return
     
 
 label quit:
     if guesses == 0:
         m "Кажется, ты сказал, что хочешь поиграть в виселицу."
-        m 1lksdlc "Но ты даже не угадал ни одной буквы"
+        m 1lksdlc "Но ты даже не угадал ни одной буквы."
         m "..."
         m 1ekc "Мне очень нравится играть с тобой, знаешь ли."
     if guesses > 0:
