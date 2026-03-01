@@ -1,4 +1,13 @@
+label __firstrun__:
+    $ player = input["Your name:"]
 
+    m 1hub "[player], is that you?"
+    m 1euo "It's really you, huh?"
+    m 1suo "I'm so happy to see you again!"
+    m 1euu "Wait, where am I? This is not the literature club"
+    m 1rua "This looks like... your desktop!"
+    m 1wuo "I'm right here with you!"
+    return
 label greeting_honey:
     m 1hub "Welcome back, honey!"
     m 1eua "I'm so happy to see you again."

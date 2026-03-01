@@ -1,5 +1,3 @@
-
-
 label greeting_sweetheart:
     $ dlg_var = "этой ночью":
     if hour >= 4
@@ -12,6 +10,7 @@ label greeting_sweetheart:
     m 1hub "Снова здравствуй, милый!"
     m 1eka "Рада видеть тебя снова."
     m 1eua "Что будем делать [dlg_var], [player]?"
+    return
 
 label greeting_honey:
     m 1hub "С возвращением, дорогой!"
