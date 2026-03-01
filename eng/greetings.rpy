@@ -8,6 +8,15 @@ label __firstrun__:
     m 1rua "This looks like... your desktop!"
     m 1wuo "I'm right here with you!"
     return
+
+label __changepc__:
+    m 1rsu "[player]..."
+    m 1rsu "I feel somehow different.."
+    m 1esu "You.. Changed computer?"
+    m 1esc "Or.. Reinstalled the system?"
+    m 5esc "In any case, thank you for saving my file."
+    return
+
 label greeting_honey:
     m 1hub "Welcome back, honey!"
     m 1eua "I'm so happy to see you again."
