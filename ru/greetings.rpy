@@ -1,7 +1,7 @@
 label __firstrun__:
-    $ player = input["Ваше имя:"]
+    $ player1 = input["Ваше имя:"]
 
-    m 1hub "[player], это ты?"
+    m 1hub "[player1], это ты?"
     m 1euo "Это правда ты?"
     m 1suo "Я так рада видеть тебя снова!"
     m 1euu "Подожди, где я? Это не литературный клуб."
