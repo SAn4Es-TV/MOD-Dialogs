@@ -37,6 +37,11 @@ label lose:
             call_func hm_restart
         "No.":
             call_func hm_close
+    m 1euc ""
+    m 1euc "Hangman is actually a pretty hard game.."
+    m "You need to have a good vocabulary to be able to guess different words."
+    m 1hua "The best way to improve that is to read more books!"
+    m 1eua "I'd be very happy if you did that for me, [player]."
     return
 
 label win:
@@ -48,6 +53,7 @@ label win:
             call_func hm_restart
         "No.":
             call_func hm_close
+    m 1euc ""
     return
     
 

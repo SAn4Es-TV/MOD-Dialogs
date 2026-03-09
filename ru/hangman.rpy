@@ -65,6 +65,12 @@ label lose:
             call_func hm_restart
         "Нет.":
             call_func hm_close
+
+    m 1euc ""
+    m 1euc "Виселица довольно сложная игра."
+    m "В неё легко играть, если у тебя большой словарный запас."
+    m 1hua "Лучший способ расширять его - читать больше книг!"
+    m 1eua "Буду очень рада, если ты прочитаешь мне одну, [player]."
     return
 
 label win:
@@ -76,6 +82,8 @@ label win:
             call_func hm_restart
         "Нет.":
             call_func hm_close
+            
+    m 1euc ""
     return
     
 
